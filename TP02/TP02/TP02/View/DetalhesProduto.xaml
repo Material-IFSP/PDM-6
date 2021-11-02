@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP02.View.DetalhesProduto"
+             Title="Detalhes do Produto">
+    <ContentPage.Content>
+        <Grid  Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="60" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Código" Grid.Row="0" Grid.Column="0" />
+            <Label Text="{Binding Id}" Grid.Row="0" Grid.Column="1" />
+
+            <Label Text="Descrição" Grid.Row="1" Grid.Column="0" />
+            <Label Text="{Binding Descricao}" Grid.Row="1" Grid.Column="1" />
+
+            <Label Text="Categoria" Grid.Row="2" Grid.Column="0" />
+            <Label Text="{Binding Categoria}" Grid.Row="2" Grid.Column="1" />
+
+            <Label Text="Quantidade" Grid.Row="3" Grid.Column="0" />
+            <Label Text="{Binding Quantidade}" Grid.Row="3" Grid.Column="1" />
+
+            <Label Text="Preço" Grid.Row="4" Grid.Column="0" />
+            <Label Text="{Binding Preco}" Grid.Row="4" Grid.Column="1" />
+
+            <Button Text="Retornar à Produto"
+                    Grid.Row="5"
+                    Grid.Column="1"
+                    TextColor="White"
+                    BackgroundColor="blue"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Clicked="BtnBackPage"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP02.View.EstiloPadrao">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="SHIFT - Xamarin"
+                   TextColor="Green"
+                   FontSize="Medium"
+                   HorizontalOptions="Center" />
+            <Label Text="Aplicativo Cross-Platform"
+                   TextColor="Green"
+                   FontSize="Medium"
+                   HorizontalOptions="Center"
+                   />
+
+            <Entry Text="Estilo Baseado no baseStyle" 
+                   BackgroundColor="Cyan"
+                   HorizontalOptions="Center"/>
+            <Button Text="Clique Aqui" 
+                    TextColor="White" 
+                    BackgroundColor="Blue"
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"/>
+            <Button Text="SEM ESTILO"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
