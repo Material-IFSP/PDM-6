@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP04SQLite", "TP04SQLite\TP04SQLite.csproj", "{A5D1E7B4-F9B0-4536-9B3C-A7F53B613791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP04SQLite.Android", "TP04SQLite.Android\TP04SQLite.Android.csproj", "{3CCCAF27-62EC-4F67-A1CA-74B1E9411988}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5D1E7B4-F9B0-4536-9B3C-A7F53B613791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D1E7B4-F9B0-4536-9B3C-A7F53B613791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D1E7B4-F9B0-4536-9B3C-A7F53B613791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D1E7B4-F9B0-4536-9B3C-A7F53B613791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CCCAF27-62EC-4F67-A1CA-74B1E9411988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCCAF27-62EC-4F67-A1CA-74B1E9411988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCCAF27-62EC-4F67-A1CA-74B1E9411988}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3CCCAF27-62EC-4F67-A1CA-74B1E9411988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCCAF27-62EC-4F67-A1CA-74B1E9411988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CCCAF27-62EC-4F67-A1CA-74B1E9411988}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7ED3381-21FE-44D7-82AD-F427CDE3804D}
+	EndGlobalSection
+EndGlobal
